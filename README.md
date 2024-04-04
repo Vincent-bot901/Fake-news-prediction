@@ -9,7 +9,7 @@ To test the results of our code, follow these steps:
 1. Navigate to the "FakeNewsCorpus" dataset and locate the CSV file you want to use.
 2. Save the CSV file as "Data/bigdata/big.csv" in the project directory.
 
-Next, run the Jupyter notebook provided in the repository. This notebook contains the necessary preprocessing steps and model training code, so to see the results of our models you would simply have to run the entire Jupyter notebook file.
+Next, run the Jupyter notebook provided in the repository. This notebook contains the necessary preprocessing steps and model training code, so to see the results of our models you would simply have to run the entire Jupyter notebook file. Make sure to install all necessary libraries!
 
 ## Exploring the data
 
