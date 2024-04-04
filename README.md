@@ -14,3 +14,6 @@ Next, run the Jupyter notebook provided in the repository. This notebook contain
 ## Exploring the data
 
 In the "dataexploration" folder, you'll find Python scripts that we used to explore and visualize the dataset. To run these scripts, navigate to the "dataexploration" folder in your terminal or command prompt and execute each script using Python (e.g., `python filename.py`).
+
+## Medianwords.py
+This file plots a figure that shows median word count of LIAR dataset and the dataset used to train our models.
