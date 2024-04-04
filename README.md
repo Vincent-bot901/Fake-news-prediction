@@ -1,13 +1,16 @@
 # Fake-news-prediction
-Our project code for the final project in GDS.
+
+This repository contains the code for our final project in GDS.
+
+## Using our code
+
+To test the results of our code, follow these steps:
+
+1. Navigate to the "FakeNewsCorpus" dataset and locate the CSV file you want to use.
+2. Save the CSV file as "Data/bigdata/big.csv" in the project directory.
+
+Next, run the Jupyter notebook provided in the repository. This notebook contains the necessary preprocessing steps and model training code, so to see the results of our models you would simply have to run the entire Jupyter notebook file.
 
 ## Exploring the data
 
-In the folder dataexploration, we have all the files that we used to notice and visualise interesting throught out the dataset we have been provieded.
-These files can be run by simply cd in to the folder and runnning python filename.py.
-
-
-## Making models and preprocessing data
-
-To see the results we have shown in our report, you can simply run the jupyter notebook file. To do this we will first cd to the jupyter notebook folder and then run the the file. Make sure you have all the modules installed provided in requirments.txt.
-
+In the "dataexploration" folder, you'll find Python scripts that we used to explore and visualize the dataset. To run these scripts, navigate to the "dataexploration" folder in your terminal or command prompt and execute each script using Python (e.g., `python filename.py`).
