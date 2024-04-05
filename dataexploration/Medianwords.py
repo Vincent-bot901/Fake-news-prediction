@@ -13,7 +13,7 @@ median_word_count1 = df['content'].apply(median_word_count)
 median_word_count2 = df2[2].apply(median_word_count)
 
 # Plotting
-plt.bar(['Dataset brugt til traning', 'Liar dataset'], [median_word_count1.median(), median_word_count2.median()], color=['skyblue', 'salmon'])
+plt.bar(['FakeNewsCorpus dataset', 'Liar dataset'], [median_word_count1.median(), median_word_count2.median()], color=['skyblue', 'salmon'])
 plt.xlabel('Datasets')
 plt.ylabel('Amount of Words')
 plt.title('Comparison of median word count')
